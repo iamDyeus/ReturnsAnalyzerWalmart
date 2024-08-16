@@ -1,12 +1,11 @@
 import V0Analysis from "./V0Analysis";
-
 export default function V0Report() {
     return (
         <div className="grid gap-8 md:gap-12 px-4 md:px-6 py-8 md:py-12 max-w-6xl mx-auto mb-14">
             <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-start">
                 <div>
                     <img
-                        src="/samsung-65.jpg" // Replace with actual image path
+                        src="/samsung-65.jpg" 
                         alt="Samsung 65' 4K Ultra HD Smart TV"
                     width={400}
                     height={400}
@@ -23,42 +22,43 @@ export default function V0Report() {
                     <div className="grid gap-2 md:gap-4">
                         <div className="grid sm:grid-cols-2 gap-4">
                             <div>
-                                <h3 className="text-base font-medium">Parameter 1</h3>
-                                <p className="text-2xl md:text-3xl font-bold">100</p>
+                                <h3 className="text-base font-medium">Depot Integrity Score</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.70</p>
                             </div>
                             <div>
-                                <h3 className="text-base font-medium">Parameter 2</h3>
-                                <p className="text-2xl md:text-3xl font-bold">50</p>
-                            </div>
-                        </div>
-                        <div className="grid sm:grid-cols-2 gap-4">
-                            <div>
-                                <h3 className="text-base font-medium">Parameter 3</h3>
-                                <p className="text-2xl md:text-3xl font-bold">75</p>
-                            </div>
-                            <div>
-                                <h3 className="text-base font-medium">Parameter 4</h3>
-                                <p className="text-2xl md:text-3xl font-bold">25</p>
+                                <h3 className="text-base font-medium">Vehicle Integrity Score</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.65</p>
                             </div>
                         </div>
                         <div className="grid sm:grid-cols-2 gap-4">
                             <div>
-                                <h3 className="text-base font-medium">Parameter 3</h3>
-                                <p className="text-2xl md:text-3xl font-bold">75</p>
+                                <h3 className="text-base font-medium">Driver Performance Score</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.60</p>
                             </div>
                             <div>
-                                <h3 className="text-base font-medium">Parameter 4</h3>
-                                <p className="text-2xl md:text-3xl font-bold">25</p>
+                                <h3 className="text-base font-medium">Product Score</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.90</p>
                             </div>
                         </div>
                         <div className="grid sm:grid-cols-2 gap-4">
                             <div>
-                                <h3 className="text-base font-medium">Parameter 3</h3>
-                                <p className="text-2xl md:text-3xl font-bold">75</p>
+                                <h3 className="text-base font-medium">Weather Score
+</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.93</p>
                             </div>
                             <div>
-                                <h3 className="text-base font-medium">Parameter 4</h3>
-                                <p className="text-2xl md:text-3xl font-bold">25</p>
+                                <h3 className="text-base font-medium">Historical success/failure ratios</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.80</p>
+                            </div>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-4">
+                            <div>
+                                <h3 className="text-base font-medium">Type Liability</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.75</p>
+                            </div>
+                            <div>
+                                <h3 className="text-base font-medium">Warehouse Score</h3>
+                                <p className="text-2xl md:text-3xl font-bold">0.80</p>
                             </div>
                         </div>
                     </div>
